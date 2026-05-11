@@ -1,0 +1,449 @@
+[
+  {
+    "id": "q_001",
+    "doc_id": "mam_pdf",
+    "question": "TÜBİTAK Marmara Araştırma Merkezi'nin kuruluş yılı nedir?",
+    "gold_answer": "1972",
+    "source_passage": "1972 yılında Marmara Araştırma Enstitüsü’nün Gebze’de kurulmasına yönelik çalışmalar tamamlanmış ve enstitü, kendi uzmanlık alanlarında faaliyetlerine resmen başlamıştır.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0001"
+    ],
+    "category": "Factual",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_002",
+    "doc_id": "mam_pdf",
+    "question": "TÜBİTAK hangi yılda kurulmuştur?",
+    "gold_answer": "1963",
+    "source_passage": "TÜBİTAK, Türkiye’de planlı ekonomi döneminin başlangıcında 1963 yılında kurulmuş olup, kuruluşunda temel ve uygulamalı doğa bilimleri araştırmalarını desteklemek ile genç araştırmacıları teşvik etmek temel görevleri olarak belirlenmiştir.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0002"
+    ],
+    "category": "Factual",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_003",
+    "doc_id": "mam_pdf",
+    "question": "TÜBİTAK MAM'ın misyonu nedir?",
+    "gold_answer": "Uygulamalı araştırma ve geliştirme yaparak sürdürülebilir, yenilikçi, bilimsel ve teknolojik çözümler üretmektir.",
+    "source_passage": "Misyon: Uygulamalı araştırma ve geliştirme yaparak sürdürülebilir, yenilikçi, bilimsel ve teknolojik çözümler üretmek.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0003"
+    ],
+    "category": "Definition",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_004",
+    "doc_id": "mam_pdf",
+    "question": "TÜBİTAK MAM'ın vizyonu nedir?",
+    "gold_answer": "AR-GE ve inovasyon gücüyle Türk sanayiini geleceğin teknolojilerine taşıyan, uluslararası alanda lider bir araştırma merkezi olmaktır.",
+    "source_passage": "Vizyon: AR-GE ve inovasyon gücüyle Türk sanayiini geleceğin teknolojilerine taşıyan, uluslararası alanda lider bir araştırma merkezi olmak.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0004"
+    ],
+    "category": "Definition",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_005",
+    "doc_id": "mam_pdf",
+    "question": "2024 yapılanmasında MAM kaç başkan yardımcılığı altında yapılandırılmıştır?",
+    "gold_answer": "3 başkan yardımcılığı altında yapılandırılmıştır.",
+    "source_passage": "2024 yılında TÜBİTAK Yönetim Kurulu kararıyla MAM yapılanması yeniden düzenlenmiş; 3 Başkan Yardımcılığı (Enerji Teknolojileri, İklim ve Yaşam Bilimleri, Malzeme ve Proses Teknolojileri) altında yapılandırılmıştır.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0005"
+    ],
+    "category": "Factual",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_006",
+    "doc_id": "mam_pdf",
+    "question": "2024 yapılanmasında kaç araştırma grubu bulunmaktadır?",
+    "gold_answer": "16 araştırma grubu bulunmaktadır.",
+    "source_passage": "2024 yılında MAM yapılanması yeniden düzenlenmiş; 3 Başkan Yardımcılığı altında 16 araştırma grubu, 1 enstitü (KARE) ve idari birimler 2 direktörlük altında yapılandırılmıştır.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0005"
+    ],
+    "category": "Factual",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_007",
+    "doc_id": "mam_pdf",
+    "question": "2021 yapılanmasında enstitüler kaç başkan yardımcılığı altında kaç araştırma grubuna dönüştürülmüştür?",
+    "gold_answer": "4 başkan yardımcılığı altında 23 araştırma grubuna dönüştürülmüştür.",
+    "source_passage": "2021 yılında TÜBİTAK Yönetim Kurulu’nun kararıyla MAM yapılanması yeniden düzenlenmiş; enstitüler 4 Başkan Yardımcılığı altında 23 araştırma grubuna dönüştürülmüş, idari birimler ise 3 direktörlük altında toplanmıştır.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0006"
+    ],
+    "category": "Factual",
+    "difficulty": "medium",
+    "answerable": true
+  },
+  {
+    "id": "q_008",
+    "doc_id": "mam_pdf",
+    "question": "Kutup Araştırmaları Enstitüsü (KARE) hangi yılda kurulmuştur?",
+    "gold_answer": "2019",
+    "source_passage": "2010–2019 döneminde MAM, 7 enstitü ile faaliyetlerini sürdürmüş; 2019’da Kutup Araştırmaları Enstitüsü (KARE) kurulmuştur.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0007"
+    ],
+    "category": "Factual",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_009",
+    "doc_id": "mam_pdf",
+    "question": "TÜBİTAK MAM Başkanı kimdir?",
+    "gold_answer": "Prof. Dr. Burcu Özsoy",
+    "source_passage": "Yönetim bölümünde Prof. Dr. Burcu ÖZSOY, TÜBİTAK Marmara Araştırma Merkezi Başkanı olarak belirtilmiştir.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0008"
+    ],
+    "category": "Factual",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_010",
+    "doc_id": "mam_pdf",
+    "question": "Prof. Dr. Burcu Özsoy 2025 yılında hangi kurula üyeliğe seçilmiştir?",
+    "gold_answer": "Cumhurbaşkanlığı Yerel Yönetim ve Afet Politikaları Kurulu üyeliğine seçilmiştir.",
+    "source_passage": "Özsoy, 2025 yılında Cumhurbaşkanının tensipleriyle “Cumhurbaşkanlığı Yerel Yönetim ve Afet Politikaları Kurulu” üyeliğine seçilmiştir.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0009"
+    ],
+    "category": "Factual",
+    "difficulty": "medium",
+    "answerable": true
+  },
+  {
+    "id": "q_011",
+    "doc_id": "mam_pdf",
+    "question": "Strateji ve Proje Yönetimi Direktörü kimdir?",
+    "gold_answer": "Doç. Dr. Abit Balın",
+    "source_passage": "Doç. Dr. Abit BALIN, TÜBİTAK MAM bünyesinde Strateji ve Proje Yönetimi Direktörü olarak görev yapmaktadır.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0010"
+    ],
+    "category": "Factual",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_012",
+    "doc_id": "mam_pdf",
+    "question": "Enerji Teknolojileri Başkan Yardımcısı kimdir?",
+    "gold_answer": "Dr. Doğan Gezer",
+    "source_passage": "Dr. Doğan GEZER, TÜBİTAK Marmara Araştırma Merkezi Enerji Teknolojileri Başkan Yardımcılığı’nda görev yapmaktadır.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0011"
+    ],
+    "category": "Factual",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_013",
+    "doc_id": "mam_pdf",
+    "question": "Malzeme ve Proses Teknolojileri Başkan Yardımcısı kimdir?",
+    "gold_answer": "Dr. Ersin Üresin",
+    "source_passage": "Dr. Ersin ÜRESİN, 2024 yılından itibaren TÜBİTAK Marmara Araştırma Merkezi Malzeme ve Proses Teknolojileri Başkan Yardımcısı olarak görev yapmaktadır.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0012"
+    ],
+    "category": "Factual",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_014",
+    "doc_id": "mam_pdf",
+    "question": "İklim ve Yaşam Bilimleri Başkan Yardımcısı kimdir?",
+    "gold_answer": "Doç. Dr. Özgen Ercan",
+    "source_passage": "Doç. Dr. Özgen ERCAN, 2024 yılından itibaren TÜBİTAK Marmara Araştırma Merkezi İklim ve Yaşam Bilimleri Başkan Yardımcısı olarak görev yapmaktadır.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0013"
+    ],
+    "category": "Factual",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_015",
+    "doc_id": "mam_pdf",
+    "question": "Kurumsal Çözümler Direktörü kimdir?",
+    "gold_answer": "Tekin Yıldırım",
+    "source_passage": "Tekin YILDIRIM, 2024 yılından itibaren TÜBİTAK MAM Kurumsal Çözümler Direktörü olarak görev yapmaktadır.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0014"
+    ],
+    "category": "Factual",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_016",
+    "doc_id": "mam_pdf",
+    "question": "ISO 9001 Kalite Yönetim Sistemi'nin kurulması ve belgelendirilmesi MAM'da hangi yılda gerçekleştirilmiştir?",
+    "gold_answer": "2002",
+    "source_passage": "TÜBİTAK MAM’da ISO 9001 Kalite Yönetim Sistemi’nin Kurulması ve Belgelendirilmesi 2002 yılında gerçekleştirilmiş, 2002 yılından bu yana sürekliliği sağlanmaktadır.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0015"
+    ],
+    "category": "Factual",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_017",
+    "doc_id": "mam_pdf",
+    "question": "ISO 14001 Çevre Yönetim Sistemi MAM'da hangi yılda belgelendirilmiştir?",
+    "gold_answer": "2005",
+    "source_passage": "TÜBİTAK MAM’da ISO 14001 Çevre Yönetim Sistemi’nin Kurulması ve Belgelendirilmesi 2005 yılında gerçekleştirilmiş, 2005 yılından bu yana sürekliliği sağlanmaktadır.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0016"
+    ],
+    "category": "Factual",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_018",
+    "doc_id": "mam_pdf",
+    "question": "ISO/IEC 17025 Laboratuvar Akreditasyonu MAM'da hangi yılda gerçekleştirilmiştir?",
+    "gold_answer": "2001",
+    "source_passage": "TÜBİTAK MAM’da ISO/IEC17025 Laboratuvar Akreditasyonu ve Belgelendirilmesi 2001 yılında gerçekleştirilmiştir.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0017"
+    ],
+    "category": "Factual",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_019",
+    "doc_id": "mam_pdf",
+    "question": "Helal Akreditasyon Belgesi MAM'ın hangi laboratuvarı tarafından 2023 yılında alınmıştır?",
+    "gold_answer": "Moleküler Biyoloji Laboratuvarı",
+    "source_passage": "TÜBİTAK MAM’ın Helal alanında hizmet vermesini amaçladığımız Moleküler Biyoloji Laboratuvarımız 2023 yılında Helal Akreditasyon Kurumu’nun denetimlerini başarı ile tamamlayarak Helal Akreditasyon Belgesi almıştır.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0018"
+    ],
+    "category": "Factual",
+    "difficulty": "medium",
+    "answerable": true
+  },
+  {
+    "id": "q_020",
+    "doc_id": "mam_pdf",
+    "question": "SIPS ürününün açılımı nedir?",
+    "gold_answer": "System Integrity Protection Scheme",
+    "source_passage": "Ürün Kısa/Kod Adı: SIPS (System Integrity Protection Scheme).",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0019"
+    ],
+    "category": "Definition",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_021",
+    "doc_id": "mam_pdf",
+    "question": "SIPS ürününün teknoloji hazırlık seviyesi kaçtır?",
+    "gold_answer": "THS 9",
+    "source_passage": "SIPS ürününe ait Teknoloji Hazırlık Seviyesi (THS) bilgisi THS 9 olarak verilmiştir.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0020"
+    ],
+    "category": "Factual",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_022",
+    "doc_id": "mam_pdf",
+    "question": "SIPS sistemi için basit kullanım lisansı hangi kuruma verilmiştir?",
+    "gold_answer": "TEİAŞ’a (Türkiye Elektrik İletim A.Ş.)",
+    "source_passage": "Patent / Lisanslama Durumu: Sistem için TEİAŞ’a (Türkiye Elektrik İletim A.Ş.) Basit Kullanım Lisansı verilmiştir.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0021"
+    ],
+    "category": "Factual",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_023",
+    "doc_id": "mam_pdf",
+    "question": "RİTM sisteminin açılımı nedir?",
+    "gold_answer": "Rüzgar Gücü İzleme ve Tahmin Sistemi",
+    "source_passage": "Teknoloji / Ürün Adı: Rüzgar Gücü İzleme ve Tahmin Sistemi. Teknoloji / Ürün Kısa (Kod) Adı: RİTM.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0022"
+    ],
+    "category": "Definition",
+    "difficulty": "easy",
+    "answerable": true
+  },
+  {
+    "id": "q_024",
+    "doc_id": "mam_pdf",
+    "question": "RİTM sistemi en fazla kaç saate kadar tahmin üretebilmektedir?",
+    "gold_answer": "72 saate kadar",
+    "source_passage": "RİTM platformu, hem fiziksel modelleme hem de veri odaklı yaklaşımlar kullanarak, 6 saatlik ve 72 saate kadar uzanan zaman dilimleri için tahmin üretme kapasitesine sahiptir.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0023"
+    ],
+    "category": "Factual",
+    "difficulty": "medium",
+    "answerable": true
+  },
+  {
+    "id": "q_025",
+    "doc_id": "mam_pdf",
+    "question": "RİTM sisteminin geliştirici araştırma grubu hangisidir?",
+    "gold_answer": "BYET Enerji İzleme ve Tahmin AG",
+    "source_passage": "RİTM ürününde geliştirici araştırma grupları kısmında BYET Enerji İzleme ve Tahmin AG bilgisi yer almaktadır.",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0024"
+    ],
+    "category": "Factual",
+    "difficulty": "medium",
+    "answerable": true
+  },
+  {
+    "id": "q_026",
+    "question": "TÜBİTAK MAM’ın yıllık bütçesi ne kadardır?",
+    "gold_answer": "TÜBİTAK Marmara Araştırma Merkezi’nin yıllık bütçesi hakkında dokümanda herhangi bir bilgi bulunmamaktadır.",
+    "source_passage": "Metinde TÜBİTAK Marmara Araştırma Merkezi’nin faaliyet alanları, araştırma enstitüleri ve görevleri hakkında bilgiler yer almaktadır; ancak merkezin yıllık bütçesine ilişkin herhangi bir bilgi verilmemiştir.",
+    "category": "Faktüel",
+    "difficulty": "easy",
+    "answerable": true,
+    "approved": true,
+    "doc_id": "mam_pdf",
+    "gold_chunk_ids": [],
+    "created_by": "manual",
+    "created_at": "2026-03-13T10:21:03.621584"
+  },
+  {
+    "id": "q_027",
+    "question": "TÜBİTAK MAM’ın yıllık bütçesi ne kadardır?",
+    "gold_answer": "TÜBİTAK Marmara Araştırma Merkezi’nin yıllık bütçesi hakkında dokümanda herhangi bir bilgi bulunmamaktadır.",
+    "source_passage": "Metinde TÜBİTAK Marmara Araştırma Merkezi’nin faaliyet alanları, araştırma enstitüleri ve görevleri hakkında bilgiler yer almaktadır; ancak merkezin yıllık bütçesine ilişkin herhangi bir bilgi verilmemiştir.",
+    "category": "Faktüel",
+    "difficulty": "easy",
+    "answerable": true,
+    "approved": true,
+    "doc_id": "mam_pdf",
+    "gold_chunk_ids": [],
+    "created_by": "manual",
+    "created_at": "2026-03-13T10:21:08.641965"
+  },
+  {
+    "id": "q_028",
+    "question": "TÜBİTAK MAM’ın yıllık bütçesi ne kadardır?",
+    "gold_answer": "TÜBİTAK Marmara Araştırma Merkezi’nin yıllık bütçesi hakkında dokümanda herhangi bir bilgi bulunmamaktadır.",
+    "source_passage": "Metinde TÜBİTAK Marmara Araştırma Merkezi’nin faaliyet alanları, araştırma enstitüleri ve görevleri hakkında bilgiler yer almaktadır; ancak merkezin yıllık bütçesine ilişkin herhangi bir bilgi verilmemiştir.",
+    "category": "Faktüel",
+    "difficulty": "easy",
+    "answerable": true,
+    "approved": true,
+    "doc_id": "mam_pdf",
+    "gold_chunk_ids": [],
+    "created_by": "manual",
+    "created_at": "2026-03-13T10:21:31.946912"
+  },
+  {
+    "id": "q_029",
+    "question": "Bu parçaya göre temel bilgi nedir? (1)",
+    "gold_answer": "TÜBİTAK MARMARA ARAŞTIRMA MERKEZİ Kurumsal Biz Kimiz?",
+    "source_passage": "TÜBİTAK MARMARA ARAŞTIRMA MERKEZİ Kurumsal Biz Kimiz?",
+    "category": "Faktüel",
+    "difficulty": "easy",
+    "answerable": true,
+    "approved": false,
+    "doc_id": "mam_pdf",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0001"
+    ],
+    "created_by": "llm_candidate",
+    "created_at": "2026-03-13T10:21:54.404866"
+  },
+  {
+    "id": "q_030",
+    "question": "Bu parçaya göre temel bilgi nedir? (2)",
+    "gold_answer": "TÜBİTAK Kocaeli-Gebze Kampüsü’nde yer alan Marmara Araştırma Merkezi (MAM), Türkiye’nin bilim, teknoloji ve yenilik ekosisteminde etkin rol üstlenen bir araştırma kurumudur. Enerji teknolojileri, ikli",
+    "source_passage": "TÜBİTAK Kocaeli-Gebze Kampüsü’nde yer alan Marmara Araştırma Merkezi (MAM), Türkiye’nin bilim, teknoloji ve yenilik ekosisteminde etkin rol üstlenen bir araştırma kurumudur. Enerji teknolojileri, iklim ve yaşam bilimleri ile malzeme ve proses teknolojileri alanlarındaki yetkinliği ve gelişmiş araştırma altyapısı sayesinde Marmara Araştırma Merkezi; ülkemizin stratejik ihtiyaçlarına yönelik teknolo",
+    "category": "Faktüel",
+    "difficulty": "easy",
+    "answerable": true,
+    "approved": false,
+    "doc_id": "mam_pdf",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0002"
+    ],
+    "created_by": "llm_candidate",
+    "created_at": "2026-03-13T10:21:54.404887"
+  },
+  {
+    "id": "q_031",
+    "question": "Bu parçaya göre temel bilgi nedir? (3)",
+    "gold_answer": "Eğitim, yayın ve danışmanlık faaliyetleriyle bilgi üretiminin yaygınlaşmasına destek olur; uluslararası standartlara sahip laboratuvar altyapısıyla test, analiz, kalibrasyon ve ölçüm hizmetleri sunar.",
+    "source_passage": "Eğitim, yayın ve danışmanlık faaliyetleriyle bilgi üretiminin yaygınlaşmasına destek olur; uluslararası standartlara sahip laboratuvar altyapısıyla test, analiz, kalibrasyon ve ölçüm hizmetleri sunar. Merkez, bilimsel birikimini toplumsal ve ekonomik faydaya dönüştürecek çözüm ve teknolojiler geliştirerek Türkiye’nin sürdürülebilir kalkınma hedeflerine katkı sağlamayı amaçlar. Misyon ve Vizyon",
+    "category": "Faktüel",
+    "difficulty": "easy",
+    "answerable": true,
+    "approved": false,
+    "doc_id": "mam_pdf",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0003"
+    ],
+    "created_by": "llm_candidate",
+    "created_at": "2026-03-13T10:21:54.404894"
+  },
+  {
+    "id": "q_032",
+    "question": "Bu parçaya göre temel bilgi nedir? (4)",
+    "gold_answer": "Misyon Uygulamalı araştırma ve geliştirme yaparak sürdürülebilir, yenilikçi, bilimsel ve teknolojik çözümler üretmek. Vizyon",
+    "source_passage": "Misyon Uygulamalı araştırma ve geliştirme yaparak sürdürülebilir, yenilikçi, bilimsel ve teknolojik çözümler üretmek. Vizyon",
+    "category": "Faktüel",
+    "difficulty": "easy",
+    "answerable": true,
+    "approved": false,
+    "doc_id": "mam_pdf",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0004"
+    ],
+    "created_by": "llm_candidate",
+    "created_at": "2026-03-13T10:21:54.404899"
+  },
+  {
+    "id": "q_033",
+    "question": "Bu parçaya göre temel bilgi nedir? (5)",
+    "gold_answer": "AR-GE ve inovasyon gücüyle Türk sanayiini geleceğin teknolojilerine taşıyan, uluslararası alanda lider bir araştırma merkezi olmak. Temel Değerlerimiz Bilimsel ve Teknik Yetkinlik",
+    "source_passage": "AR-GE ve inovasyon gücüyle Türk sanayiini geleceğin teknolojilerine taşıyan, uluslararası alanda lider bir araştırma merkezi olmak. Temel Değerlerimiz Bilimsel ve Teknik Yetkinlik",
+    "category": "Faktüel",
+    "difficulty": "easy",
+    "answerable": true,
+    "approved": false,
+    "doc_id": "mam_pdf",
+    "gold_chunk_ids": [
+      "mam_pdf_chunk_0005"
+    ],
+    "created_by": "llm_candidate",
+    "created_at": "2026-03-13T10:21:54.404904"
+  }
+]
