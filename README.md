@@ -5,8 +5,8 @@
 A framework to evaluate Retrieval-Augmented Generation (RAG) systems with benchmark datasets, metrics, and an interactive dashboard.
 </p>
 
-![<img width="1909" height="915" alt="Ekran görüntüsü 2026-03-13 104456" src="https://github.com/user-attachments/assets/a05a6dc6-9870-4661-a042-83ae3af823ac" />
-)
+<img width="1909" height="915" alt="Ekran görüntüsü 2026-03-13 104456" src="https://github.com/user-attachments/assets/a05a6dc6-9870-4661-a042-83ae3af823ac" />
+
 ---
 
 
