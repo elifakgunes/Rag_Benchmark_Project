@@ -1,32 +1,46 @@
 # Rag_Benchmark_Project
-RAG Benchmark & Evaluation System
+# RAG Benchmark & Evaluation System
 
-Bu proje, Retrieval-Augmented Generation (RAG) sistemlerinin performansını ölçmek için geliştirilmiş bir benchmark ve değerlendirme platformudur. Sistem; dokümanlardan bilgi çekme (retrieval), LLM ile cevap üretme (generation) ve üretilen cevapların doğruluğunu farklı metriklerle değerlendirme süreçlerini içerir.
+<p align="center">
+A framework to evaluate Retrieval-Augmented Generation (RAG) systems with benchmark datasets, metrics, and an interactive dashboard.
+</p>
 
-Projede ayrıca Streamlit tabanlı bir dashboard bulunmaktadır. Bu dashboard üzerinden:
+![RAG Benchmark Banner](Ekran%20görüntüsü%202026-03-13%20104456.png)
+---
 
-Dataset yönetimi
-Benchmark çalıştırma
-Model karşılaştırma
-Geçmiş sonuçları analiz etme
-işlemleri yapılabilir.
 
-Projenin Amacı
+## Overview
 
-RAG sistemleri genellikle şu sorunlarla karşılaşır:
+This project provides a **complete benchmarking framework for RAG systems**.
 
-yanlış doküman getirme (retrieval error)
-eksik bağlam
-halüsinasyon (hallucination)
-model cevaplarının doğruluğunu ölçememe
-Bu proje şu problemleri çözmeyi amaçlar:
+It allows you to:
 
-RAG sistemlerini standart bir benchmark dataset ile test etmek
-farklı retriever ve model kombinasyonlarını karşılaştırmak
-halüsinasyon oranını ölçmek
-performansı dashboard üzerinden analiz etmek
-Proje Yapısı
+- run benchmark tests on RAG pipelines
+- evaluate retrieval and generation performance
+- measure hallucination rates
+- compare models and retrievers
+- visualize results in a Streamlit dashboard
 
+The system is designed for **research, experimentation, and evaluation of LLM-based retrieval pipelines**.
+
+---
+
+## Features
+
+- RAG pipeline evaluation
+- Benchmark dataset support
+- Retrieval metrics
+- Generation metrics
+- Hallucination detection
+- Model comparison
+- Streamlit dashboard
+- Dataset management interface
+
+---
+
+## Project Structure
+
+```
 Rag_project
 │
 ├── rag_system
@@ -43,162 +57,212 @@ Rag_project
 │
 ├── app.py
 │
-├── requirements.txt
-Sistem Mimarisi
+└── requirements.txt
+```
 
-Soru
+---
+
+## System Architecture
+
+```
+Question
    │
    ▼
 Retriever
    │
    ▼
-Relevant Chunks
+Relevant Document Chunks
    │
    ▼
 Generator (LLM)
    │
    ▼
-Cevap
+Generated Answer
    │
    ▼
 Evaluation Metrics
-Adımlar:
+```
 
-Dataset içinden bir soru alınır
-Retriever ilgili doküman parçalarını bulur
-Generator modeli bağlam ile birlikte cevap üretir
-Cevap benchmark metrikleri ile değerlendirilir
-Sonuçlar dashboard'a kaydedilir
-Kurulum
+---
 
-Projeyi klonlayın:
+## Installation
 
-git clone https://github.com/kullaniciadi/Rag_project.git
-cd Rag_project
-Python Ortamı Oluşturma
+Clone the repository:
 
-Windows:
+```bash
+git clone https://github.com/yourusername/rag-benchmark.git
+cd rag-benchmark
+```
 
+Create a virtual environment:
+
+```bash
 python -m venv .venv
+```
+
+Activate the environment:
+
+Windows
+
+```
 .venv\Scripts\activate
-Mac / Linux:
+```
 
-python3 -m venv .venv
+Mac/Linux
+
+```
 source .venv/bin/activate
-Gerekli Paketler
+```
 
-Projede kullanılan temel kütüphaneler:
+---
 
-streamlit
-pandas
-numpy
-sentence-transformers
-scikit-learn
-google-generativeai
-chromadb
-python-dotenv
-plotly
-Kurmak için:
+## Install Dependencies
 
+```bash
 pip install -r requirements.txt
-veya
+```
 
+If requirements.txt is not available:
+
+```bash
 pip install streamlit pandas numpy sentence-transformers scikit-learn google-generativeai chromadb python-dotenv plotly
-API Anahtarı Ayarlama
+```
 
-Proje Gemini gibi bir LLM kullanıyorsa .env dosyası oluşturulmalıdır.
+---
 
+## API Configuration
+
+Create a `.env` file in the project root:
+
+```
 GEMINI_API_KEY=your_api_key_here
-Corpus Yapısı
+```
 
-Retriever sisteminin çalışabilmesi için dokümanlar chunklara bölünür.
+---
 
-corpus/corpus_chunks.json
-Örnek veri:
+## Running Benchmark
 
-[
-  {
-    "doc_id": "mam_pdf",
-    "chunk_id": "mam_pdf_chunk_001",
-    "text": "TÜBİTAK Marmara Araştırma Merkezi 1972 yılında kurulmuştur.",
-    "page": 3
-  }
-]
-Dataset Yapısı
+Run the benchmark evaluation:
 
-Benchmark soruları şu dosyada bulunur:
-
-benchmark/dataset.json
-Örnek:
-
-{
-  "id": "q_001",
-  "question": "TÜBİTAK MAM hangi yıl kurulmuştur?",
-  "gold_answer": "1972",
-  "source_passage": "TÜBİTAK Marmara Araştırma Merkezi 1972 yılında kurulmuştur.",
-  "category": "Faktüel",
-  "difficulty": "easy",
-  "answerable": true
-}
-Benchmark Çalıştırma
-
-Benchmark başlatmak için:
-
+```bash
 python -m benchmark.evaluate
-Bu işlem:
+```
 
-dataset içindeki soruları işler
-retriever ile ilgili dokümanları getirir
-generator model ile cevap üretir
-metrikleri hesaplar
-sonuçları kaydeder
-Dashboard Çalıştırma
+The benchmark will:
 
-Streamlit dashboard'u çalıştırmak için:
+1. load questions from the dataset
+2. retrieve relevant document chunks
+3. generate answers with the LLM
+4. compute evaluation metrics
+5. store results for analysis
 
+---
+
+## Running the Dashboard
+
+Launch the interactive dashboard:
+
+```bash
 streamlit run app.py
-Dashboard üzerinden:
+```
 
-Dataset yönetimi
-Benchmark sonuçlarını görüntüleme
-Model karşılaştırma
-geçmiş benchmark runları
-analiz edilebilir.
+The dashboard allows you to:
 
-Ölçülen Metrikler
+- manage datasets
+- inspect benchmark runs
+- compare models
+- visualize metrics
+- analyze hallucination rates
 
-Retrieval Metrics
+---
 
-Recall
-Precision
-Context Recall
-Generation Metrics
+## Evaluation Metrics
 
-Exact Match
-F1 Score
-Semantic Similarity
-Hallucination Metrics
+The system evaluates RAG pipelines using several metrics.
 
-Modelin dokümanda olmayan bilgi üretme oranı ölçülür.
+### Retrieval Metrics
 
-Hallucination Testi
+- Recall
+- Precision
+- Context Recall
 
-Dataset içinde answerable = false olan sorular halüsinasyon testleri için kullanılır.
+### Generation Metrics
 
-Örnek:
+- Exact Match
+- F1 Score
+- Semantic Similarity
 
-TÜBİTAK MAM’ın yıllık bütçesi ne kadardır?
-Model cevap uydurursa:
+### Hallucination Metrics
 
-Hallucination
-olarak işaretlenir.
+The system measures how often the model generates answers that **are not supported by the retrieved context**.
 
-Kullanılan Teknolojiler
+---
 
-Python
-Streamlit
-Sentence Transformers
-ChromaDB
-Gemini / LLM
-Pandas
-Plotly
+## Example Hallucination Test
+
+Example unanswerable question:
+
+```
+What is the annual budget of TÜBİTAK MAM?
+```
+
+Expected behavior:
+
+```
+The information is not present in the provided documents.
+```
+
+If the model generates an unsupported answer, it is counted as **hallucination**.
+
+---
+
+## How to run the project
+
+1. Clone th repository
+  >git clone <repo-link>
+  >cd Rag_project
+
+2. Create & Activate Virtual Environment
+  > python -m venv .venv
+  >.\.venv\Scripts\Activate
+
+
+3. Install Dependencies 
+
+ > pip install pandas numpy streamlit plotly scikit-learn sentence-transformers python-dotenv openai google-generativeai groq
+
+4. Setup Environment Variables
+
+>OPENAI_API_KEY=your_key_here
+>GOOGLE_API_KEY=your_key_here
+>GROQ_API_KEY=your_key_here
+
+5.Run Benchmark
+>python -m benchmark.evaluate
+
+6.Dashboard
+>streamlit run dashboard/app.py
+
+
+
+## Technologies Used
+
+- Python
+- Streamlit
+- Sentence Transformers
+- ChromaDB
+- Gemini API
+- Pandas
+- Plotly
+
+---
+
+## Future Improvements
+
+- advanced evaluation metrics
+- automatic dataset generation
+- model leaderboard
+- multi-model benchmark support
+- RAG pipeline visualization
+
+---
